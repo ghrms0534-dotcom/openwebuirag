@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+  <server>
+    <!-- 60�� Ÿ�Ӿƿ�: ��뷮 ��ĵ PDF ó���� -->
+    <taskTimeoutMillis>3600000</taskTimeoutMillis>
+  </server>
+</properties>
