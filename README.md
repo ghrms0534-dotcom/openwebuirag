@@ -2,13 +2,11 @@
 
 Open WebUI를 통해 PDF, DOCX, PPTX, XLSX, HWP 등의 문서를 업로드하면, 문서 내용을 자동으로 분석하여 벡터 DB에 저장한다. 이후 사용자가 자연어로 질문하면 관련 문서를 검색하여 LLM이 답변과 출처(citation)를 함께 제공한다.
 
-<<<<<<< HEAD
-<img width="1907" height="861" alt="openwebuirag" src="https://github.com/user-attachments/assets/59294be6-69e1-4b3d-b3aa-426edc5d8edc" />
-
 ## 구성
+
 =======
+
 ## 시스템 구성도
->>>>>>> c4f4bdb (docs: update project documentation)
 
 ```
 사용자
@@ -293,10 +291,7 @@ docker compose -f docker/docker-compose.yml logs tika           # Tika
 - 모든 모델은 로컬에서 실행 (외부 API 사용 없음)
 - WEBUI_SECRET_KEY는 반드시 랜덤 값으로 설정 (미설정 시 시작 차단)
 
-<<<<<<< HEAD
-위 항목은 `.gitignore`에 등록되어 있습니다.
-=======
----
+## =======
 
 ## Docker 볼륨
 
@@ -342,4 +337,3 @@ ssh -L 8000:localhost:8000 user@gpu-server -fN
 - http://localhost:3000 (직접)
 - http://localhost (Nginx 경유)
 - 최초 접속 시 관리자 계정 생성
->>>>>>> c4f4bdb (docs: update project documentation)
