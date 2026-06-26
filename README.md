@@ -2,6 +2,8 @@
 
 Open WebUI 기반의 로컬 RAG 실행 환경입니다. 문서를 업로드하면 Tika가 텍스트를 추출하고, Qdrant에 벡터로 저장한 뒤, vLLM 또는 Ollama로 문서 기반 답변과 출처를 제공합니다.
 
+<img width="1907" height="861" alt="openwebuirag" src="https://github.com/user-attachments/assets/59294be6-69e1-4b3d-b3aa-426edc5d8edc" />
+
 ## 구성
 
 - Open WebUI: 채팅 UI와 RAG 오케스트레이션, `3000` 포트
